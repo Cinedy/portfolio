@@ -3,15 +3,20 @@
     color: white;
     padding: 0 10px;
     text-decoration: none;
+    font-size: 25px;
+
 }
 
 .active {
     color: #F18302;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight:bolder;
 }
 
 .container { 
     display: flex;
     padding: 10px;
+    width: 450px;
+    justify-content: space-between;
+    flex-shrink: 0;
 }

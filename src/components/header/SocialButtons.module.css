@@ -1,0 +1,30 @@
+
+.button {
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    background-color: #e9e9eb;
+    background-origin: content-box;
+    padding: 5px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    display: flex;
+    gap: 13px;
+}
+
+.linkedin {
+    background-image: url("/linkedin3.png");
+}
+
+.instagram {
+    background-image: url("/instagram.png");
+}
+
+.github {
+    background-image: url("/github.png");
+}
+

@@ -1,0 +1,17 @@
+.container {
+    background-color: #E9E9EB;
+    width: 500px;
+    height: 170px;
+    border-radius: 30px 30px 30px 30px;
+} 
+
+.flik {
+    position: relative;
+    left: 480px;
+    top: 145px;
+    width: 37px;
+    height: 31px;
+    background-image: url("/flik.png");
+}
+
+
