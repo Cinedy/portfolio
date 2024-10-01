@@ -10,6 +10,7 @@ export default function Portrait() {
             height={1683/3.3}
             alt="picture"
         />
+        <div className={styles.gradient}></div>
       </div>
     );
   }

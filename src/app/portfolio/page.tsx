@@ -1,10 +1,7 @@
+import UnderConstruction from "@/components/cv/UnderConstruction";
 
 export default function Portfolio() {
     return (
-      <div>
-        <main>
-          Portfolio
-        </main>
-      </div>
+      <UnderConstruction />
     );
   }
