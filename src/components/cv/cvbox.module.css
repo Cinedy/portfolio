@@ -1,0 +1,26 @@
+.container {
+    background-color: #E9E9EB;
+    width: 335px;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px;
+} 
+.headerContainer {
+    background-color: #2A76AE;
+    width: 200px;
+    height: 45px;
+    border-radius: 15px;
+    position: absolute;
+    color: #E9E9EB;
+    left: calc(50% - 100px);
+    top: -18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.headerContainer h2 {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}
