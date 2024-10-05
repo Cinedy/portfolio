@@ -3,7 +3,7 @@
     width: 335px;
     border-radius: 15px;
     position: relative;
-    padding: 20px;
+    padding: 45px 20px 30px 20px;
 } 
 .headerContainer {
     background-color: #2A76AE;
@@ -23,4 +23,10 @@
     font-size: 20px;
     letter-spacing: 0.8px;
     font-weight: 500;
+}
+
+@media (max-width: 1340px) { /* these styles only work when the screen is less than 1340 px wide */
+    .container {
+        width: 345px;
+    }
 }
