@@ -6,8 +6,8 @@ export default function Portrait() {
       <div className={styles.container}>
         <Image
             src="/Headshot.jpg"
-            width={1358/3.3}
-            height={1683/3.3}
+            width={412.5}
+            height={510}
             alt="picture"
         />
         <div className={styles.gradient}></div>

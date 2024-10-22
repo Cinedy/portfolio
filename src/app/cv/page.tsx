@@ -44,10 +44,10 @@ export default function Cv() {
         <CvBox title="Tools">
           <ul>
             <li className={styles.text}>Microsoft Office</li>
-            <li className={styles.text}>Phyton</li>
-            <li className={styles.text}>HTML</li>
-            <li className={styles.text}>CSS</li>
+            <li className={styles.text}>Python</li>
+            <li className={styles.text}>HTML & CSS</li>
             <li className={styles.text}>JavaScript</li>
+            <li className={styles.text}>Next.js</li>
           </ul>
         </CvBox>
       </div>

@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.messageContainer}>
-        <Message />
+        <Message/>
         <ContactButton/>
       </div>
-      <Portrait /> 
+      <Portrait/> 
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.container {
+    width: 550px;
+} 
+
+.form {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid #373737;
+    border-radius: 1em;
+    background-color: #E9E9EB;
+  }
+
+.button {
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 200px;
+}
+
+.message {
+    vertical-align: top;
+    height: 300px;
+    width: 380px;
+}
+
+.label {
+    display: inline-block;
+    min-width: 80px;
+    text-align: right;
+}
+
