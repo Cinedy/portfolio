@@ -31,13 +31,14 @@ export default function Cv() {
             <li><b>2017-2019</b><br/>German and social science teacher - Sunndal High School</li>
           </ul>
         </CvBox>
-        <CvBox title="Introduction"><p className={styles.text}>Hi, my name is Silje. I am a logistics expert with 5 years of experience in purchasing and sales. 
-        I am passionate about learning new things and being active outdoors. Contact me for a chat over a caffee.</p></CvBox>
+        <CvBox title="Introduction"><p className={styles.text}>Hi, my name is Silje. <br></br>I am a logistics expert with 5 years of experience in purchasing and sales. 
+        I am passionate about learning new things and being active outdoors. I want to use technology to address real challenges and make a meaningful difference. Contact me for a chat over a caffee and a cinnamon roll.</p></CvBox>
         <CvBox title="Skills">
           <ul>
+            <li className={styles.text}>Purchasing and sales</li>
             <li className={styles.text}>Building relationships</li>
             <li className={styles.text}>Negotiations</li>
-            <li className={styles.text}>English and german</li>
+            <li className={styles.text}>Norwegian, English and German language</li>
             <li className={styles.text}>Contribute to a good atmosphere in the office</li>
           </ul>
         </CvBox>
