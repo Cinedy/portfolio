@@ -32,7 +32,7 @@ export default function Cv() {
           </ul>
         </CvBox>
         <CvBox title="Introduction"><p className={styles.text}>Hi, my name is Silje. <br></br>I am a logistics expert with 5 years of experience in purchasing and sales. 
-        I am passionate about learning new things and being active outdoors. I want to use technology to address real challenges and make a meaningful difference. Contact me for a chat over a caffee and a cinnamon roll.</p></CvBox>
+        I am passionate about learning new things and being active outdoors. I want to use technology to address real challenges and make a meaningful difference. Contact me for a chat over a caffee and a cinnamon bun .</p></CvBox>
         <CvBox title="Skills">
           <ul>
             <li className={styles.text}>Purchasing and sales</li>

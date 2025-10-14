@@ -1,20 +1,9 @@
 .container img {
     transform: scaleX(-1);
+    height: 450px; /* your desired height */
+    object-fit: cover;
+    object-position: center;
 }
 
-.container {
-    position:relative;
-    padding-left: 1px;
-}
-
-.gradient {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-    background: radial-gradient(ellipse, transparent 0%, transparent 50%, #1D4977 70%, #1D4977 100%);
-}
 
 

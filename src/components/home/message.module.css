@@ -1,10 +1,10 @@
 .container {
     background-color: #E9E9EB;
-    width: 335px;
-    height: 120px;
+    width: 400px;
+    height: 245px;
     border-radius: 30px;
     position: relative;
-    padding: 15px 20px;
+    padding: 30px 20px;
 } 
 
 .flik {
@@ -17,7 +17,7 @@
 }
 
 .message {
-    font-size: 32px;
+    font-size: 35px;
     margin: 0;
 }
 
