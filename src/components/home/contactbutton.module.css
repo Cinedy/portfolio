@@ -1,10 +1,32 @@
 .button {
     color: white;
-    background-color: #F18302;
+    background-color: #C9A55A;
     border: none;
     border-radius: 20px;
     width: 170px;
     height: 45px;
     font-size: 22px;
     cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(44, 74, 106, 0.3);
+    transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+    background-color: #B8903F;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(44, 74, 106, 0.35);
+}
+
+.button:active {
+    transform: translateY(0px);
+    box-shadow: 0 2px 6px rgba(44, 74, 106, 0.3);
+}
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 18px;
+        width: 150px;
+        height: 40px;
+    }
 }

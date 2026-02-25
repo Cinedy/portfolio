@@ -3,5 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 50px;
+    padding: 20px 50px;
+    background-color: #2C4A6A;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 20px;
+    }
 }

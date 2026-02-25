@@ -3,12 +3,19 @@
     width: 32px;
     height: 32px;
     background-size: contain;
-    background-color: #e9e9eb;
+    background-color: #C8DCEA;
     background-origin: content-box;
     padding: 5px;
     background-repeat: no-repeat;
     border-radius: 4px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
 }
 
 .container {
@@ -27,4 +34,3 @@
 .github {
     background-image: url("/github.png");
 }
-

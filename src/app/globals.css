@@ -1,7 +1,8 @@
 
 body {
-    background-color: #ebf3f8;
+    background-color: #EBF2F8;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 * {

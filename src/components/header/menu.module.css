@@ -1,22 +1,39 @@
 
 .menuButton {
-    color: white;
+    color: #E6E6E6;
     padding: 0 10px;
     text-decoration: none;
     font-size: 25px;
+    transition: color 0.2s ease;
+}
 
+.menuButton:hover {
+    color: #C8DCEA;
 }
 
 .active {
-    color: #F18302;
+    color: #C8DCEA;
     text-decoration: underline;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
-.container { 
+.container {
     display: flex;
     padding: 10px;
     width: 450px;
     justify-content: space-between;
     flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: auto;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .menuButton {
+        font-size: 16px;
+        padding: 0 4px;
+    }
 }

@@ -1,11 +1,12 @@
 .container {
-    background-color: #E9E9EB;
+    background-color: #C8DCEA;
     width: 400px;
     height: 245px;
     border-radius: 30px;
     position: relative;
     padding: 30px 20px;
-} 
+    box-shadow: 0 4px 16px rgba(44, 74, 106, 0.18);
+}
 
 .flik {
     position: absolute;
@@ -17,14 +18,30 @@
 }
 
 .message {
-    font-size: 35px;
+    font-size: 21px;
     margin: 0;
+    line-height: 1.5;
+    color: #1A2E42;
 }
 
 .userName {
     position: absolute;
     top: -38px;
-    color: #8A898E;
+    color: #6B8BA4;
     left: 10px;
     letter-spacing: 0.6px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: auto;
+        min-height: 120px;
+    }
+
+    .message {
+        font-size: 18px;
+    }
 }

@@ -1,23 +1,26 @@
 .container {
-    background-color: #E9E9EB;
+    background-color: #C8DCEA;
     width: 335px;
     border-radius: 15px;
     position: relative;
     padding: 45px 20px 30px 20px;
-} 
+    box-shadow: 0 3px 12px rgba(44, 74, 106, 0.15);
+}
+
 .headerContainer {
-    background-color: #2A76AE;
+    background-color: #6B8BA4;
     width: 200px;
     height: 45px;
     border-radius: 15px;
     position: absolute;
-    color: #E9E9EB;
+    color: #EBF2F8;
     left: calc(50% - 100px);
     top: -18px;
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
+
 .headerContainer h2 {
     margin: 0;
     font-size: 20px;
@@ -25,7 +28,7 @@
     font-weight: 500;
 }
 
-@media (max-width: 1340px) { /* these styles only work when the screen is less than 1340 px wide */
+@media (max-width: 1340px) {
     .container {
         width: 345px;
     }

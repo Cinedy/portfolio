@@ -25,7 +25,8 @@ export default function Cv() {
         </CvBox>
         <CvBox title="Experience">
           <ul>
-            <li className={styles.marginBottom}><b>2022-present</b><br/>Key Account Manager - World Kinect</li>
+            <li className={styles.marginBottom}><b>2025-present</b><br/>Advisor in Innovation, Technology and Development - Haraldsplass Diakonale Sykehus</li>
+            <li className={styles.marginBottom}><b>2022-2024</b><br/>Key Account Manager - World Kinect</li>
             <li className={styles.marginBottom}><b>2020-2022</b><br/>Purchaser - Pipelife</li>
             <li className={styles.marginBottom}><b>2019</b><br/>Internship - Norsk Hydro</li>
             <li><b>2017-2019</b><br/>German and social science teacher - Sunndal High School</li>
