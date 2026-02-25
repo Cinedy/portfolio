@@ -1,12 +1,23 @@
 .container {
     border-radius: 50%;
     overflow: hidden;
-    width: 400px;
-    height: 400px;
-    outline: 5px solid #6B8BA4;
-    outline-offset: 5px;
-    box-shadow: 0 6px 24px rgba(44, 74, 106, 0.22);
+    width: 380px;
+    height: 380px;
+    outline: none;
+    box-shadow:
+        0 0 0 4px var(--color-bg),
+        0 0 0 8px var(--color-blue-dark),
+        0 8px 40px rgba(37, 99, 235, 0.25);
     flex-shrink: 0;
+    transition: box-shadow var(--transition-base), transform var(--transition-base);
+}
+
+.container:hover {
+    box-shadow:
+        0 0 0 4px var(--color-bg),
+        0 0 0 8px var(--color-blue-light),
+        0 8px 48px rgba(14, 165, 233, 0.35);
+    transform: translateY(-3px);
 }
 
 .container img {

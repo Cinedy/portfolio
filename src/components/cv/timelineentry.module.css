@@ -1,0 +1,56 @@
+.entry {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.yearCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 80px;
+    padding-top: 2px;
+}
+
+.year {
+    font-size: 12px;
+    font-weight: 600;
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.line {
+    width: 2px;
+    flex: 1;
+    min-height: 20px;
+    background: linear-gradient(to bottom, var(--color-blue-dark), rgba(37, 99, 235, 0.1));
+    border-radius: 1px;
+    margin-top: 6px;
+}
+
+.content {
+    padding-bottom: 20px;
+    flex: 1;
+}
+
+.role {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-text-main);
+    line-height: 1.4;
+}
+
+.company {
+    margin: 0;
+    font-size: 13px;
+    color: var(--color-text-muted);
+    line-height: 1.4;
+}

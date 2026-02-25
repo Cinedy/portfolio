@@ -1,10 +1,32 @@
 
-body {
-    background-color: #EBF2F8;
-    margin: 0;
-    scroll-behavior: smooth;
+:root {
+    --color-bg:         #F8FAFC;
+    --color-surface:    #FFFFFF;
+    --color-border:     #E2E8F0;
+    --color-blue-dark:  #2563EB;
+    --color-blue-light: #0EA5E9;
+    --color-text-main:  #0F172A;
+    --color-text-muted: #64748B;
+    --color-shadow:     rgba(37, 99, 235, 0.12);
+    --gradient-accent:  linear-gradient(135deg, #2563EB, #0EA5E9);
+    --radius-card:      14px;
+    --transition-base:  0.2s ease;
 }
 
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 80px;
+}
+
+body {
+    background-color: var(--color-bg);
+    background-image: radial-gradient(circle, #CBD5E1 1px, transparent 1px);
+    background-size: 28px 28px;
+    margin: 0;
+    scroll-behavior: smooth;
+    color: var(--color-text-main);
 }

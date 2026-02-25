@@ -1,26 +1,29 @@
 
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .button {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     background-size: contain;
-    background-color: #C8DCEA;
+    background-color: var(--color-surface);
     background-origin: content-box;
-    padding: 5px;
+    padding: 6px;
     background-repeat: no-repeat;
-    border-radius: 4px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+    transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
     cursor: pointer;
 }
 
 .button:hover {
     transform: translateY(-2px);
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
-}
-
-.container {
-    display: flex;
-    gap: 13px;
+    border-color: var(--color-blue-light);
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
 }
 
 .linkedin {

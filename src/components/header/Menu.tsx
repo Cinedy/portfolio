@@ -1,17 +1,41 @@
 'use client'
-import Link from "next/link";
 import styles from "./menu.module.css";
-import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
+
+const sections = ['home', 'cv', 'portfolio', 'contact'] as const;
+type Section = typeof sections[number];
 
 export default function Menu() {
-    const pathname = usePathname();
-    
+    const [activeSection, setActiveSection] = useState<Section>('home');
+
+    useEffect(() => {
+        const observers: IntersectionObserver[] = [];
+
+        sections.forEach(id => {
+            const element = document.getElementById(id);
+            if (!element) return;
+
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    if (entry.isIntersecting) {
+                        setActiveSection(id);
+                    }
+                },
+                { rootMargin: '-40% 0px -55% 0px' }
+            );
+            observer.observe(element);
+            observers.push(observer);
+        });
+
+        return () => observers.forEach(o => o.disconnect());
+    }, []);
+
     return (
       <nav className={styles.container}>
-        <Link href="/" className={`${styles.menuButton} ${pathname == "/" ? styles.active : ""}`}>Home</Link>
-        <Link href="/cv" className={`${styles.menuButton} ${pathname == "/cv" ? styles.active : ""}`}>CV</Link>
-        <Link href="/portfolio" className={`${styles.menuButton} ${pathname == "/portfolio" ? styles.active : ""}`}>Portfolio</Link>
-        <Link href="/contact" className={`${styles.menuButton} ${pathname == "/contact" ? styles.active : ""}`}>Contact Info</Link>
+        <a href="#home" className={`${styles.menuButton} ${activeSection === 'home' ? styles.active : ''}`}>Home</a>
+        <a href="#cv" className={`${styles.menuButton} ${activeSection === 'cv' ? styles.active : ''}`}>CV</a>
+        <a href="#portfolio" className={`${styles.menuButton} ${activeSection === 'portfolio' ? styles.active : ''}`}>Portfolio</a>
+        <a href="#contact" className={`${styles.menuButton} ${activeSection === 'contact' ? styles.active : ''}`}>Contact Info</a>
       </nav>
     );
   }
