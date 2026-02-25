@@ -3,7 +3,7 @@ import styles from "./message.module.css"
 export default function Message() {
     return (
       <div className={styles.container}>
-        <p className={styles.userName}>Silje Melling</p>
+        <p className={styles.userName}>Silje Melling Strandkleiv</p>
         <p className={styles.message}>Hello, and welcome to my portfolio website. </p>
         <br></br>
         <br></br>

@@ -4,7 +4,7 @@ export default function HeroContent() {
     return (
       <div className={styles.container}>
         <p className={styles.greeting}>Hi, I&apos;m</p>
-        <h1 className={styles.name}>Silje Melling</h1>
+        <h1 className={styles.name}>Silje Melling Strandkleiv</h1>
         <p className={styles.subtitle}> Advisor - Innovation & technology</p>
         <p className={styles.bio}>
           I help organizations navigate the intersection of AI, technology, and people -
