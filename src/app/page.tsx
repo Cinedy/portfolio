@@ -4,7 +4,7 @@ import Portrait from "@/components/home/Portrait";
 import ExpertiseSection from "@/components/home/ExpertiseSection";
 import CvBox from "@/components/cv/CvBox";
 import TimelineEntry from "@/components/cv/TimelineEntry";
-import UnderConstruction from "@/components/portfolio/UnderConstruction";
+import PortfolioSection from "@/components/portfolio/PortfolioSection";
 import ContactSection from "@/components/contact/ContactSection";
 
 export default function Home() {
@@ -65,9 +65,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="portfolio">
-        <UnderConstruction />
-      </section>
+      <PortfolioSection />
 
       <ContactSection />
     </main>

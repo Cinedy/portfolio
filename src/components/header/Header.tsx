@@ -1,13 +1,11 @@
-
 import Menu from "@/components/header/Menu";
+import LogoLink from "@/components/header/LogoLink";
 import styles from "./header.module.css";
 
 export default function Header() {
     return (
       <header className={styles.header}>
-        <a href="#home" className={styles.logo}>
-          silje<span className={styles.logoDev}>.dev</span>
-        </a>
+        <LogoLink />
         <Menu />
       </header>
     );
